@@ -1,0 +1,186 @@
+body{
+    background-color: $fourthColor;
+    overflow-x: hidden;
+}
+
+p{
+    color: $secondaryColor;
+    font-weight: 400;
+    font-size: 1,6em;
+    line-height: 1,7em;
+}
+.text-center{
+    text-align: center;
+}
+.topbar{
+    text-align: center;
+    background-color: #95A5A6;
+    padding: 5px;
+    color: #FFFFFF;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin: 40px;
+    color: #011011;
+}
+.contenedor{
+    background-color: beige;
+ height: auto;
+ padding: 5px;
+ border: solid 6px #011011;
+ text-align: center;
+}
+.borde{
+    border: solid 4px black;
+}
+section div form{
+    display: inline-block;
+}
+.destacado{
+    font-size: 4em;
+    height: auto;
+    color: #011011;
+    padding: 10px;
+}
+.textomenor{
+    font-size: 2em;
+    height: auto;
+    color: black;
+    padding: 3px;
+}
+#formulario{
+    margin: 10px;
+}
+#bordedos{
+    border-top: #011011 solid;
+}
+h3{
+    text-align: center;
+    text-shadow: #95A5A6;
+    background-color: antiquewhite;
+    padding: 10px;
+    font-size: 25px;
+}
+.formu{
+    background-color: cadetblue;
+ width: 100%;   
+ height: auto;
+ margin: 10px auto;
+ padding: 5px;
+ border: solid 3px #011011;
+ text-align: center;
+ font-size: 25px;
+}
+table{
+    width: 100%;
+    text-align: left;
+    background-color: #e6ebeb;
+    padding: 2px;
+    margin: 10px 10px 10px 10px;
+}
+th{
+    background-color: #011011;
+    color: #e6ebeb;
+    border-bottom: slateblue solid 5px; 
+}
+tr:hover{
+    background-color: skyblue;
+}
+#banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px; 
+}
+.principio{
+    text-align: center;
+    margin: 10px;
+    }
+.cartitas{
+        text-align: center;
+        font-size: xx-large;
+        background-color: rgb(223, 223, 223);
+        border-top: #011011 solid 4px;
+        padding: 50px;
+    }
+.precio{
+    color: black;
+    }
+.filtros{
+    margin-left: 15px;
+    }
+.filtrotalless{
+    padding: 15px 40px;
+    background-color: #e6ebeb;
+    color: #95A5A6;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: large;
+    }    
+.salsa{
+        width: 100%;
+        height: 46px;
+        padding: 10px;
+        text-align: center;
+        font-size: 16px;
+        color: #000;
+        border: #000 solid 1px;
+        margin-bottom: 20px;
+    }
+.miel{
+        width: 100%;
+        height: 46px;
+        border: 0;
+        background-color:#d0ecf8;
+        border: #000 solid 2px;
+    }
+.contenedor-dos{
+        display: flex;
+        flex-wrap: wrap ;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    
+.primercarrusel{
+        margin: 20px;
+    }
+    .centroboton{
+    display: flex;
+    justify-content: center;
+}
+.centrocontacto{
+    box-sizing: border-box;
+
+}
+.cajacontacto{
+    width: 350px;
+    margin: 20px;
+    pad: 20px;
+}
+.espaciocontacto{
+    display: flex;
+    flex-direction: row;
+}
+.centroboton{
+    display: flex;
+    justify-content: center;
+}
+.centrocontacto{
+    box-sizing: border-box;
+
+}
+.cajacontacto{
+    width: 350px;
+    margin: 20px;
+    pad: 20px;
+}
+.espaciocontacto{
+    display: flex;
+    flex-direction: row;
+}
