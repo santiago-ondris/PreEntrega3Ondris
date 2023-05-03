@@ -8,7 +8,7 @@
     margin-left: 50px;
 }
 #botonprod{
-    background-color: #011011;
+    background-color: $thirdColor;
     border: whitesmoke solid 3px;
     color: wheat;
     text-align: center;
@@ -25,30 +25,30 @@
     background-color: gainsboro;
 }
 .cajaestilo{
-    border-bottom: #000 solid 2px;
+    border-bottom: $thirdColor solid 2px;
 }
 .carta{
-    background-color: #95A5A6;
+    background-color: $mainColor;
 }
 #botonproducto{
-    background-color:#95A5A6;
-    border: 1px solid #000;
+    background-color: $mainColor;
+    border: 1px solid $thirdColor;
     border-radius: 4px;
     box-sizing: border-box;
-    color: #fff;
+    color: $fourthColor;
     cursor: pointer;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: $espacio-doble;
+    line-height: $espacio-doble;
     padding: 12px 40px;
     margin: 6px;
     text-align: center;
     touch-action: manipulation;
 }
 #textoproducto{
-    color: #000;
-    margin-top: 20px;
+    color: $thirdColor;
+    margin-top: $espacio-doble;
 }
 #precioproducto{
     font-size: 25px;
-    color: #000;
+    color: $thirdColor;
 }
